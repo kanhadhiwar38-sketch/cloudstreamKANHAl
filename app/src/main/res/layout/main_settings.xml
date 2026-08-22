@@ -595,7 +595,7 @@
                             android:layout_width="18dp"
                             android:layout_height="18dp"
                             android:src="@drawable/ic_outline_info_24"
-                            android:contentDescription="@string/about"
+                            android:contentDescription="@string/home_info"
                             app:tint="?attr/grayTextColor" />
                     </LinearLayout>
 
@@ -614,7 +614,7 @@
                         android:layout_width="18dp"
                         android:layout_height="18dp"
                         android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
-                        android:contentDescription="@string/about"
+                        android:contentDescription="@string/home_info"
                         app:tint="?attr/grayTextColor" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
