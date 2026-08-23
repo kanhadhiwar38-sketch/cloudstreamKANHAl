@@ -11,7 +11,7 @@
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
         android:src="@drawable/splash_background"
-        android:alpha="0.4"
+        android:alpha="0.85"
         android:contentDescription="@string/app_name" />
 
     <androidx.appcompat.widget.AppCompatImageView

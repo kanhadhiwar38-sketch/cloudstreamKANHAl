@@ -1,61 +1,8 @@
-<vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="108dp"
-    android:height="108dp"
-    android:viewportWidth="108"
-    android:viewportHeight="108">
-
-    <!-- Deep space atmosphere background circle -->
-    <path
-        android:pathData="M54,54m-48,0a48,48 0 1,1 96,0a48,48 0 1,1 -96,0"
-        android:fillColor="#0A0204"/>
-
-    <!-- Orbital Ring around Globe -->
-    <path
-        android:pathData="M 18,50 C 25,32 78,28 92,44 C 98,52 75,66 38,62"
-        android:strokeColor="#FF1E27"
-        android:strokeWidth="1.5"
-        android:fillColor="#00000000"/>
-
-    <!-- Globe / Planet Arc -->
-    <path
-        android:pathData="M54,16 A38,38 0 0,1 92,54 A38,38 0 0,1 54,92 A38,38 0 0,1 16,54 A38,38 0 0,1 54,16 Z"
-        android:fillColor="#150306"
-        android:strokeColor="#80FF1E27"
-        android:strokeWidth="1"/>
-
-    <!-- Glowing Red Continent Highlights -->
-    <path
-        android:pathData="M 36,32 Q 44,28 50,34 T 62,32 T 52,42 Z M 65,45 Q 75,40 80,48 T 72,56 Z M 30,55 Q 38,50 44,60 T 36,68 Z"
-        android:fillColor="#E50914"/>
-
-    <!-- Mysterious Anime Character Profile Silhouette -->
-    <path
-        android:pathData="M 38,76 C 36,64 42,54 48,46 C 45,42 44,36 48,30 C 52,24 60,22 66,26 C 72,20 78,22 80,28 C 84,32 82,38 78,42 C 84,46 86,52 82,58 C 80,62 76,66 74,76 Z"
-        android:fillColor="#050505"/>
-
-    <!-- Character Red Hair Highlights -->
-    <path
-        android:pathData="M 48,30 Q 52,22 60,20 Q 56,26 62,26 M 66,26 Q 74,18 80,24 Q 74,28 78,34 M 80,28 Q 88,32 84,38"
-        android:strokeColor="#FF1E27"
-        android:strokeWidth="1.8"
-        android:fillColor="#00000000"/>
-
-    <!-- Glowing Red Eye -->
-    <path
-        android:pathData="M 64,36 A 2.5,2.5 0 1,1 63.9,36 Z"
-        android:fillColor="#FF001E"/>
-
-    <!-- Red Triangular Play Button (Lower Left) -->
-    <path
-        android:pathData="M 24,66 L 44,78 L 24,90 Z"
-        android:fillColor="#FF1E27"/>
-    <path
-        android:pathData="M 27,70 L 40,78 L 27,86 Z"
-        android:fillColor="#E50914"/>
-
-    <!-- Text Accents / "WATCH ANIME GLOBAL" Stylized Lines -->
-    <path
-        android:pathData="M 48,84 L 92,84"
-        android:strokeColor="#FF1E27"
-        android:strokeWidth="1.2"/>
-</vector>
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/app_logo"
+        android:width="108dp"
+        android:height="108dp"
+        android:gravity="center" />
+</layer-list>
