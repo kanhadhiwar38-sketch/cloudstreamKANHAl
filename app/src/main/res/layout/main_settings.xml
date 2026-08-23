@@ -603,7 +603,7 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="About Toonstream"
+                        android:text="About Watch Anime Global"
                         android:textColor="?attr/textColor"
                         android:textSize="14sp"
                         android:fontFamily="@font/google_sans"
